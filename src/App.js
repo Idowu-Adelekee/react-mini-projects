@@ -1,3 +1,4 @@
+import { useState } from "react";
 import logo from "./logo.svg";
 
 const faqs = [
@@ -16,13 +17,17 @@ const faqs = [
 ];
 
 export default function App() {
-  return <Accordion />;
+  return (
+    <div>
+      <Accordion data={faqs} />
+    </div>
+  );
 }
 
-function Accordion() {
+function Accordion({ data }) {
   return (
     <div className="accordion">
-      {faqs.map((item, i) => (
+      {data.map((item, i) => (
         <Item title={item.title} num={i} text={item.text} key={item.title} />
       ))}
     </div>
@@ -30,11 +35,25 @@ function Accordion() {
 }
 
 function Item({ num, title, text }) {
+  const [isOpen, setIsOpen] = useState(false);
+
+  function handleToggle() {
+    setIsOpen((isOpen) => !isOpen);
+  }
+
   return (
-    <div className="content">
-      <p className="number">{num}</p>
+    <div className={isOpen ? `item open` : "item"} onClick={handleToggle}>
+      <p className="number">{num < 9 ? `0${num + 1}` : num + 1}</p>
       <p className="title">{title}</p>
-      <p className="text">{text}</p>
+      <p className="icon">{isOpen ? "-" : "+"}</p>
+
+      {isOpen ? (
+        <div className="content-box">
+          <p className="text">{text}</p>
+        </div>
+      ) : (
+        ""
+      )}
     </div>
   );
 }
