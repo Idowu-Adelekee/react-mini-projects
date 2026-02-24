@@ -57,5 +57,3 @@ function Item({ num, title, text }) {
     </div>
   );
 }
-
-const noble = "Idowu";
