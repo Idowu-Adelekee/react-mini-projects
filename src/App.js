@@ -87,11 +87,3 @@ function Item({}) {
 //     </div>
 //   );
 // }
-
-const idowu = "idowu";
-const idowu = "idowu";
-const idowu = "idowu";
-const idowu = "idowu";
-const idowu = "idowu";
-const idowu = "idowu";
-const idowu = "idowu";
