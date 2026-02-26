@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./css/accordion.css";
 import "./css/pizzamenu.css";
+// import "./css/accordion.css";
 import App from "./components/App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
