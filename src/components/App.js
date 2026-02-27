@@ -25,12 +25,3 @@ export default function App() {
     </div>
   );
 }
-
-// // Accordion
-// export default function App() {
-//   return (
-//     <div>
-//       <Accordion data={faqs} />
-//     </div>
-//   );
-// }
