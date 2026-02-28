@@ -26,11 +26,3 @@ export default function App() {
     </div>
   );
 }
-
-const idowu = "idowu";
-const idowu = "idowu";
-const idowu = "idowu";
-const noble = "Noble";
-const noble = "Noble";
-const tomata = "Tomato";
-let lucas = "Lucas";
