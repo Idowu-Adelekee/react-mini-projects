@@ -30,3 +30,4 @@ export default function App() {
 const idowu = "idowu";
 const idowu = "idowu";
 const idowu = "idowu";
+const noble = "Noble";
