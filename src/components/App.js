@@ -22,6 +22,7 @@ export default function App() {
   return (
     <div>
       <PizzaMenu />
+      <PizzaMenu />
     </div>
   );
 }
