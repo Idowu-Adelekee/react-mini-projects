@@ -26,3 +26,6 @@ export default function App() {
     </div>
   );
 }
+
+const idowu = "idowu";
+const idowu = "idowu";
