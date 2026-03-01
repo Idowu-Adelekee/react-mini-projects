@@ -29,3 +29,5 @@ export default function App() {
 
 const idowu = "Noble";
 const idowu = "Noble";
+const idowu = "Noble";
+const idowu = "Noble";
