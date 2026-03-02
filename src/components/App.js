@@ -26,13 +26,3 @@ export default function App() {
     </div>
   );
 }
-
-const idowu = "Idowu";
-const idowu = "Idowu";
-const idowu = "Idowu";
-const idowu = "Idowu";
-const idowu = "Idowu";
-const idowu = "Idowu";
-const idowu = "Idowu";
-const idowu = "Idowu";
-const idowu = "Idowu";
