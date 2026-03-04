@@ -17,12 +17,9 @@ const faqs = [
   },
 ];
 
-// // Pizza Menu
-export default function App() {
-  return (
-    <div>
-      <PizzaMenu />
-      <PizzaMenu />
-    </div>
-  );
-}
+//
+
+// // // Pizza Menu
+// export default function App() {
+//   return <div></div>;
+// }
