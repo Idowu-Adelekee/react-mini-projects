@@ -23,12 +23,3 @@ const faqs = [
 // export default function App() {
 //   return <div></div>;
 // }
-
-const idowu = "noble";
-const middleName = "Adedotun";
-const middleName = "Adedotun";
-const middleName = "Adedotun";
-const middleName = "Adedotun";
-const middleName = "Adedotun";
-const middleName = "Adedotun";
-const middleName = "Adedotun";
