@@ -25,6 +25,4 @@ const faqs = [
 // }
 
 const idowu = "noble";
-const idowu = "noble";
-const idowu = "noble";
-const idowu = "noble";
+const middleName = "Adedotun";
