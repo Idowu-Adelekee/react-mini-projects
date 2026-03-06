@@ -27,3 +27,4 @@ const faqs = [
 const idowu = "noble";
 const middleName = "Adedotun";
 const middleName = "Adedotun";
+const middleName = "Adedotun";
