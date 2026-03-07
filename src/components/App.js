@@ -23,3 +23,5 @@ const faqs = [
 // export default function App() {
 //   return <div></div>;
 // }
+
+const noble = "Idowu";
