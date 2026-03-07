@@ -26,3 +26,4 @@ const faqs = [
 
 const noble = "Idowu";
 const noble = "Idowu";
+const noble = "Idowu";
